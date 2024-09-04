@@ -1,0 +1,122 @@
+[
+  {
+    "id" : 0 ,
+    "img" : "img/product/product1.jpg",
+    "imgHover" : "img/product/product-1.jpg",
+    "name"  :"Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTEee, Sierra Red",
+    "price"  : 540,
+    "oldPrice"  : 750
+  },
+  {
+    "id" : 1 ,
+    "img" : "img/product/product2.jpg",
+    "imgHover" : "img/product/product-2.jpg",
+    "name"  :"Samsung Galaxy S23 Ultra 256GB 12GB RAM 5G Dual SIM Android Smartphone",
+    "price"  : 100,
+    "oldPrice"  : 160
+  },
+  {
+    "id" : 2,
+    "img" : "img/product/product3.jpg",
+    "imgHover" : "img/product/product-3.jpg",
+    "name"  :"Samsung 55 Quantum Light 4K QLED TV - Black - QA55Q60CAUXEG TV",
+    "price"  : 140,
+    "oldPrice"  : 200
+  },
+  {
+    "id" : 3 ,
+    "img" : "img/product/product4.jpg",
+    "imgHover" : "img/product/product-4.jpg",
+    "name"  :"JBL Tune 520BT Bluetooth Headphones Up to 57 Hours Playtime App ",
+    "price"  :90 ,
+    "oldPrice"  : 110
+  },
+  {
+    "id" : 4 ,
+    "img" : "img/product/product5.jpg",
+    "imgHover" : "img/product/product-5.jpg",
+    "name"  :"Basic In-Ear Headphones with Built-in Mic and Silicone - Black, Wired",
+    "price"  :350 ,
+    "oldPrice"  : 420
+  },
+  {
+    "id" : 5 ,
+    "img" : "img/product/product6.jpg",
+    "imgHover" : "img/product/product-6.jpg",
+    "name"  :"Samsung Galaxy S23 Ultra 256GB 12GB RAM 5G Android Smartphone, White",
+    "price"  :115 ,
+    "oldPrice"  : 200
+  },
+  {
+    "id" : 6 ,
+    "img" : "img/product/product7.jpg",
+    "imgHover" : "img/product/product-7.jpg",
+    "name"  :"Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTE, Sierra White",
+    "price" :225 ,
+    "oldPrice"  : 280
+  },
+  {
+    "id" : 7 ,
+    "img" : "img/product/product8.jpg",
+    "imgHover" : "img/product/product-8.jpg",
+    "name"  :"SKMEI Men's Women's Small Waterproof Shockproof Steel Watch with Soft ",
+    "price"  :150 ,
+    "oldPrice"  : 200
+  },
+  {
+    "id" : 8 ,
+    "img" : "img/product/product1.jpg",
+    "imgHover" : "img/product/product-1.jpg",
+    "name"  :"Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTE, Sierra Red",
+    "price"  :180
+  },
+  {
+    "id" : 9 ,
+    "img" : "img/product/product2.jpg",
+    "imgHover" : "img/product/product-2.jpg",
+    "name"  :"Samsung Galaxy S23 Ultra 256GB 12GB RAM 5G Dual SIM Android, Green",
+    "price"  :300
+  },
+  {
+    "id" : 10 ,
+    "img" : "img/product/product3.jpg",
+    "imgHover" : "img/product/product-3.jpg",
+    "name"  :"JBL Tune 520BT Bluetooth Headphones Up to 57 Hours Playtime App Voice ",
+    "price"  :250
+  },
+  {
+    "id" :11 ,
+    "img" : "img/product/product4.jpg",
+    "imgHover" : "img/product/product-4.jpg",
+    "name"  :"JBL Tune 520BT Bluetooth Headphones Up to 57 Hours Playtime with App ",
+    "price"  :120
+  },
+  {
+    "id" : 12 ,
+    "img" : "img/product/product5.jpg",
+    "imgHover" : "img/product/product-5.jpg",
+    "name"  :"Basic In-Ear Headphones with Built-in Mic and Silicone  Black, Wired",
+    "price"  :90 
+  },
+  {
+    "id" : 13 ,
+    "img" : "img/product/product6.jpg",
+    "imgHover" : "img/product/product-6.jpg",
+    "name"  :"Samsung Galaxy S23 Ultra 256GB 12GB RAM 5G Dual SIM Android , White",
+    "price"  :129
+  },
+  {
+    "id" : 14 ,
+    "img" : "img/product/product7.jpg",
+    "imgHover" : "img/product/product-7.jpg",
+    "name"  :"Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTE, Sierra White",
+    "price" :100
+  },
+  {
+    "id" : 15 ,
+    "img" : "img/product/product8.jpg",
+    "imgHover" : "img/product/product-8.jpg",
+    "name"  :"SKMEI Men's Women's Small Dial Waterproof Shockproof Steel Watch with Soft",
+    "price"  :60
+  }
+]

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <!-- login-regs CSS File -->
+    <link rel="stylesheet" href="Css/login-regs.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+
+    <title> TOPICO => Login</title>
+
+  </head>
+  <body>
+
+    <!-- Start Header -->
+    <header>
+      <div class="container top-nav">
+        
+        <!-- Photo Link -->
+        <a href="" class="logo">
+          <img src="img/logo-black.png" alt="" />
+        </a>
+    
+        <!-- Search Input -->
+        <form action="index.html" class="search">
+          <input type="search" placeholder="Search For Products..." />
+          <button type="submit">Search</button>
+        </form>
+    
+        <!--  Icon Header -->
+        <div class="cart-header">
+
+          <div onclick="openCart ()" class="icon-cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <!-- Num Of Items Select  -->
+            <span class="count-items-head">0</span>
+          </div>
+
+          <!-- Price -->
+          <div class="total-price">
+            <p>My Cart : </p>
+            <p class="price-cart-head">$ 0 </p>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <nav>
+        <!-- Links -->
+        <div class="links container" >
+          <i onclick=" openMenu()" class="fa-solid fa-bars btn-open-menu" style="cursor: pointer;"></i>
+
+          <ul id="menu">
+            <span class="bg-overlay"></span>
+            <i onclick=" closeMenu()" class="fa-regular fa-circle-xmark btn-close-menu"></i>
+            <img class="logo-menu" src="img/logo-black.png" alt="">
+
+            <li class=""><a href="index.html">Home</a></li>
+            <li><a href="all-products.html">All Products</a></li>
+            <li><a href="item.html"> About Us Product</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <!-- Login & Sign Up -->
+          <div class="login-sign">
+
+            <a href="signup.html">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+
+<!-- Start Cart -->
+    <div class="cart">
+      <div class="top-cart">
+        <h3>My Cart <span class="count-item-cart">(0 Item In Cart )</span></h3>
+        <span class="close-cart" onclick="closeCart()"> <i class="fa-regular fa-circle-xmark"></i></span>
+      </div>
+
+      <!-- Products In cart -->
+      <div class="items-in-cart">
+
+      </div>
+
+      <div class="bottom-cart">
+        <div class="total">
+          <p>Cart Subtotal</p>
+          <p class="price-cart-total">$0</p>
+        </div>
+      </div>
+
+      <div class="button-cart">
+        <a href="checkout.html" class="btn-cart">Proceed to checkout</a>
+        <a href="all-products.html" class="btn-cart trans-bg" >Shop More </a>
+      </div>
+    </div>
+<!-- End Cart -->
+
+    <section class="signin sec-form">
+      <div class="form-container">
+        <p class="title">Welcome Back</p>
+
+        <form action="" class="form">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <p class="page-link">
+            <a href="#" class="page-link-lable">Forget Password ?</a>
+          </p>
+
+          <button class="form-btn">Login</button>
+
+        </form>
+
+        <p class="sign-up-lable">
+          Don't Have an Account
+          <a href="signup.html" class="sign-up-link">Sign-up</a>
+        </p>
+
+        <div class="btns-container">
+          <div class="apple-login-btn">
+            <i class="fa-brands fa-apple"></i>
+            <span>Login With Apple</span>
+          </div>
+
+          <div class="google-login-btn">
+            <i class="fa-brands fa-google"></i>
+            <span>Login With Google</span>
+          </div>
+          
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+
+<!-- Start Footer -->
+    <footer>
+      <div class="container">
+
+        <div class="big-row">
+          <img src="img/logo-white.png" alt="">
+
+          <div class="hotline">
+            <i class="fa-solid fa-headset"></i>
+
+            <div class="text">
+              <h5>Hotline Free 24/24:</h5>
+              <h6>015555555555</h6>
+            </div>
+
+          </div>
+
+          <p>
+            Lorem ipsum dolor, Excepturi consequatur hic recusandae nostrum, nobis quos! Nost
+          </p>
+        </div>
+        
+        <div class="row">
+          <h4>FAQ & Help</h4>
+
+          <div class="links">
+
+
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; F.A.Q.S</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Ordering Tracking</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Contacts</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Events/a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Help Center</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <h4>Shipping & Delivery</h4>
+
+          <div class="links">
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Delivery Information</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Discount</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Payment</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Estimated Delivery Time</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Shipping Guide</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <h4>Information</h4>
+
+          <div class="links">
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Popular</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Our Services</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Your Account</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Privacy Policy</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Terms & Condition</a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="bottom-footer">
+        <div class="container">
+          <p>Copyright &copy; <span> Topico.</span> All Rights Reserved</p>
+
+          <div class="payment-img">
+            <img src="img/payment-1.png" alt="">
+            <img src="img/payment-2.png" alt="">
+            <img src="img/payment-3.png" alt="">
+            <img src="img/payment-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- End Footer -->
+
+
+
+    <!-- main JS File -->
+    <script src="js/mian.js"></script>
+  </body>
+</html>

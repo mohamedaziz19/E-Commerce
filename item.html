@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>TOPICO => Product </title>
+
+  </head>
+  <body>
+
+    <!-- Start Header -->
+    <header>
+      <div class="container top-nav">
+        
+        <!-- Photo Link -->
+        <a href="index.html" class="logo">
+          <img src="img/logo-black.png" alt="" />
+        </a>
+    
+        <!-- Search Input -->
+        <form action="" class="search">
+          <input type="search" placeholder="Search For Products..." />
+          <button type="submit">Search</button>
+        </form>
+    
+        <!--  Icon Header -->
+        <div class="cart-header">
+
+          <div onclick="openCart ()" class="icon-cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <!-- Num Of Items Select  -->
+            <span class="count-items-head">0</span>
+          </div>
+
+          <!-- Price -->
+          <div class="total-price">
+            <p>My Cart : </p>
+            <p class="price-cart-head">$ 0 </p>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <nav>
+        <!-- Links -->
+        <div class="links container" >
+          <i onclick=" openMenu()" class="fa-solid fa-bars btn-open-menu" style="cursor: pointer;"></i>
+
+          <ul id="menu">
+            <span class="bg-overlay"></span>
+            <i onclick=" closeMenu()" class="fa-regular fa-circle-xmark btn-close-menu"></i>
+            <img class="logo-menu" src="img/logo-black.png" alt="">
+
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="all-products.html">All Products</a></li>
+            <li class="active"><a href=""> About Us Product</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+
+          <!-- Login & Sign Up -->
+          <div class="login-sign">
+            <a href="login.html">Log IN <i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="signup.html">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+<!-- Start Cart -->
+    <div class="cart">
+      <div class="top-cart">
+        <h3>My Cart <span class="count-item-cart">(0 Item In Cart )</span></h3>
+        <span class="close-cart" onclick="closeCart()"> <i class="fa-regular fa-circle-xmark"></i></span>
+      </div>
+
+      <!-- Products In cart -->
+      <div class="items-in-cart">
+
+      </div>
+
+      <div class="bottom-cart">
+        <div class="total">
+          <p>Cart Subtotal</p>
+          <p class="price-cart-total">$0</p>
+        </div>
+      </div>
+
+      <div class="button-cart">
+        <a href="checkout.html" class="btn-cart">Proceed to checkout</a>
+        <a href="all-products.html" class="btn-cart trans-bg" >Shop More </a>
+      </div>
+    </div>
+<!-- End Cart -->
+
+
+<!-- item-details -->
+    <div class="item-detail">
+      <div class="container">
+
+        <div class="img-item">
+          
+          <div class="big-img">
+            <img src="img/product/product1.jpg" alt="" id="big-img">
+          </div>
+
+          <div class="sm-imgs">
+            <img onclick="changeItemImg(this.src)"  src="img/product/product-1.jpg" alt="">
+            <img onclick="changeItemImg(this.src)" src="img/product/product-2.jpg" alt="">
+            <img onclick="changeItemImg(this.src)" src="img/product/product-6.jpg" alt="">
+            <img onclick="changeItemImg(this.src)" src="img/product/product-7.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="details-item">
+          <h1 class="name">Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTEee, Sierra Red</h1>
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <div class="price">
+            <p><span>$ 540.00</span></p>
+            <p class="old-price-p">$ 750.00</p>
+          </div>
+
+          <h5> Availability: <span> In Stock</span></h5>
+          <h5>SKU : <span>Apple iPhone 13 with FaceTime</span></h5>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur inventore eaque quae non esse aliquid
+            perferendis dignissimos eveniet repudiandae officia fuga voluptatibus officiis asperiores harum, optio facere
+            laboriosam commodi voluptas?
+          </p>
+          <h4>Hurry Up! only 98 products left in stock</h4>
+
+          <button id="add-to-cart" >add to cart <i class="fa-solid fa-cart-arrow-down"></i></button>
+          <div class="icons">
+            <span> <i class="fa-solid fa-heart"></i></span>
+            <span> <i class="fa-solid fa-sliders"></i> </span>
+            <span> <i class="fa-solid fa-print"> </i></span>
+            <span> <i class="fa-solid fa-share-nodes"> </i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Start Sale-Section -->
+    <section class="slide slide-sale">
+      <div class="container">
+
+        <div class="sale-sec mySwiper">
+
+          <div class="top-slide">
+            <h2>On Sale <span>Product</span></h2>
+          </div>
+
+            <div id="items-sale" class="products swiper-wrapper">
+              <!-- All Products With JS & Json -->
+            </div>
+
+            <div class="swiper-button-next btn-swp"></div>
+            <div class="swiper-button-prev btn-swp"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Sale-Section -->
+
+    <!--  The Button Return To Top -->
+    <div  class="back-to-top">
+      <p>Back To Top</p>
+    </div>
+
+<!-- Start Footer -->
+    <footer>
+      <div class="container">
+
+        <div class="big-row">
+          <img src="img/logo-white.png" alt="">
+
+          <div class="hotline">
+            <i class="fa-solid fa-headset"></i>
+
+            <div class="text">
+              <h5>Hotline Free 24/24:</h5>
+              <h6>015555555555</h6>
+            </div>
+
+          </div>
+
+          <p>
+            Lorem ipsum dolor, Excepturi consequatur hic recusandae nostrum, nobis quos! Nost
+          </p>
+        </div>
+        
+        <div class="row">
+          <h4>FAQ & Help</h4>
+
+          <div class="links">
+
+
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; F.A.Q.S</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Ordering Tracking</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Contacts</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Events/a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Help Center</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <h4>Shipping & Delivery</h4>
+
+          <div class="links">
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Delivery Information</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Discount</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Payment</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Estimated Delivery Time</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Shipping Guide</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <h4>Information</h4>
+
+          <div class="links">
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Popular</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Our Services</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Your Account</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Privacy Policy</a>
+            <a href="#"> <i class="fa-solid fa-angles-right"></i>  &nbsp; Terms & Condition</a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="bottom-footer">
+        <div class="container">
+          <p>Copyright &copy; <span> Topico.</span> All Rights Reserved</p>
+
+          <div class="payment-img">
+            <img src="img/payment-1.png" alt="">
+            <img src="img/payment-2.png" alt="">
+            <img src="img/payment-3.png" alt="">
+            <img src="img/payment-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- End Footer -->
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+    <script src="js/swiper.js"></script>
+    
+    <!-- items-home JS File -->
+    <script src="js/itemsHome.js"></script>
+    
+    <!-- main JS File -->
+    <script src="js/mian.js"></script>
+  </body>
+</html>
